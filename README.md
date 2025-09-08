@@ -1,1 +1,1 @@
-https://lucasleal.github.io/eanalytics
+https://lucaslealll.github.io/eanalytics/
