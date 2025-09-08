@@ -1,1 +1,1 @@
-[# eanalytics](https://lucasleal.github.io/eanalytics)
+https://lucasleal.github.io/eanalytics
