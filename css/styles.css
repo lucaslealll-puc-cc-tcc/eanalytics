@@ -626,6 +626,23 @@ progress {
   margin-right: 0.5rem;
 }
 
+.icons-list {
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;       
+}
+
+.icons-list li img {
+  height: 2.5rem;
+  display: block;
+  filter: grayscale(100%);
+  opacity: 0.9;
+}
+
 .initialism {
   font-size: 0.875em;
   text-transform: uppercase;
