@@ -84,7 +84,7 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -4802,7 +4802,7 @@ fieldset:disabled .btn {
   height: var(--bs-card-height);
   word-wrap: break-word;
   background-color: var(--bs-card-bg);
-  background-clip: border-box;
+  /* background-clip: border-box; */
   border: var(--bs-card-border-width) solid var(--bs-card-border-color);
   border-radius: var(--bs-card-border-radius);
 }
@@ -12794,4 +12794,17 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+}
+
+.iframe-container {
+  width: 100%;
+  max-width: 1200px; /* opcional, limite de largura */
+  margin: 0 auto;
+  aspect-ratio: 16 / 9; /* proporção do Power BI (16:9 é comum) */
+}
+
+.iframe-container iframe {
+  width: 100%;
+  height: 110%;
+  border: 0;
 }
